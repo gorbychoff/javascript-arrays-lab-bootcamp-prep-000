@@ -22,7 +22,7 @@ function appendKitten(name) {
   return kittens1;
 }
 
-function prependKitten(Name) {
+function prependKitten(name) {
   const kittens1 = [name, ...kittens];
   return kittens1;
 }
